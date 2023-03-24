@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './components/Card';
 
 function App() {
   return (
@@ -7,11 +8,7 @@ function App() {
         <img src="/activity.png" alt="tailwindcss logo" className="w-5 h-5" />
         <h1 className="text-xl text-white">Trending Assets</h1>
       </div>
-      <div className="flex flex-wrap justify-center items-center">
-        <div className="w-[100px] h-[100px] card-bg rounded-full flex items-center justify-center">
-        <img src="/Bitcoin SV (BSV).png" alt="tailwindcss logo" className="w-12 h-12" />
-        </div>
-      </div>
+      <Card />
     </div>
   );
 }
